@@ -20,7 +20,10 @@ class BizCard extends StatelessWidget {
         alignment: Alignment.center,
         child: Stack(
           alignment: Alignment.topCenter,
-          children: [_getCard(), _getAvatar()],
+          children: [
+            _getCard(),
+            _getAvatar(),
+          ],
         ),
       ),
     );
